@@ -24,3 +24,7 @@ font-weight: 700;
 font-style: normal;
 
 }
+
+h2 {
+    font-family: changeling-neo !important; 
+}
