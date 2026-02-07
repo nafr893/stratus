@@ -43,4 +43,11 @@ polygon.cls-2  {
 circle.cls-1 {
     stroke: white;
     fill: none; 
+
 }
+
+cart-icon.header-actions__cart-icon {
+    fill: white; 
+}
+      
+    
