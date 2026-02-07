@@ -36,7 +36,10 @@ h2, h3 {
 }
 
 /* account icon settings */ 
-polygon.cls-2, circle.cls-1 {
+polygon.cls-2  {
     fill: white; 
     stroke: white; 
+}
+circle.cls-1 {
+    stroke: white;
 }
