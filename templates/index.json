@@ -582,7 +582,7 @@
       },
       "name": "t:names.featured_product_information",
       "settings": {
-        "product": "",
+        "product": "the-stratus-drift",
         "content_width": "content-center-aligned",
         "desktop_media_position": "left",
         "equal_columns": true,
