@@ -60,7 +60,7 @@ h1,h2, h3, h6 {
 /* Product media grid — hide items beyond 8 on desktop */
 @media screen and (min-width: 750px) {
     .media-gallery__grid--truncated > li:nth-child(n+9) {
-        display: none;
+        display: none !important;
     }
 }
 
