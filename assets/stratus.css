@@ -88,8 +88,8 @@ span.show-more__label.span.show-more__label--more {
   
 }
 button.show-more__button.button-unstyled.button-unstyled--with-icon.mobile:hidden {
-margin-top: 10px !important;
-padding-bottom: 10px; 
+    margin-top: 15px !important;
+
 }
 
 .show-more__label {
