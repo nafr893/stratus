@@ -57,6 +57,13 @@ h1,h2, h3, h6 {
     }
 }
 
+/* Product media grid show more button */
+.media-gallery__show-more .show-more__button {
+    margin-block-start: var(--image-gap, 8px);
+    width: 100%;
+    justify-content: center;
+}
+
 /* account icon settings */ 
 polygon.cls-2  {
     fill: white; 
