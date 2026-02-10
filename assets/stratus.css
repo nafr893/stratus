@@ -35,8 +35,8 @@ h2, h3, h6 {
     font-weight: 600;
 }
 
-/* Flicker background + text on hover for primary button */
-.button:hover {
+/* Flicker background + text on hover for primary button blocks only */
+.size-style.button:hover {
     animation: button-flicker 350ms steps(1, end) forwards;
 }
 
