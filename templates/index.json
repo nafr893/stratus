@@ -114,8 +114,8 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "PRE ORDER",
-            "link": "shopify://collections/all",
+            "label": "EXPLORE NOW",
+            "link": "shopify://products/the-stratus-drift",
             "open_in_new_tab": false,
             "style_class": "button",
             "width": "fit-content",
@@ -539,7 +539,7 @@
               "type": "buy-buttons",
               "name": "t:names.product_buy_buttons",
               "settings": {
-                "stacking": false,
+                "stacking": true,
                 "show_pickup_availability": true,
                 "gift_card_form": true,
                 "padding-block-start": 0,
@@ -580,6 +580,7 @@
           ]
         }
       },
+      "disabled": true,
       "name": "t:names.featured_product_information",
       "settings": {
         "product": "the-stratus-drift",
@@ -687,7 +688,7 @@
           "type": "text",
           "settings": {
             "text": "<p>We'll make sure to send you the latest news on product development, and launch info. </p>",
-            "width": "100%",
+            "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
             "type_preset": "paragraph",
