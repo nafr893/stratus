@@ -72,4 +72,6 @@ cart-icon.header-actions__cart-icon {
     fill: white; 
 }
       
-    
+span.menu-list__link-title {
+    font-weight: bold; 
+}
