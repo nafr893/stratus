@@ -85,7 +85,7 @@ span.menu-list__link-title {
 }
 span.show-more__label.span.show-more__label--more {
     font-weight: bold; 
-    text-decoration:  underline; 
+    text-decoration: underline !important; 
 }
 button.show-more__button.button-unstyled.button-unstyled--with-icon.mobile:hidden {
 padding-top: 10px;
