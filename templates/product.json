@@ -974,6 +974,7 @@
                   "settings": {
                     "source": "uploaded",
                     "video": "shopify://files/videos/sTRATUSDRIFTRENDER2.1399.mp4",
+                    "video_url": "",
                     "video_autoplay": true,
                     "video_loop": true,
                     "alt": "",
@@ -1094,7 +1095,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/IMG_0332.webp",
+                    "image": "shopify://shop_images/Stratus_Photo_v3.png",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
