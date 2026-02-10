@@ -35,18 +35,18 @@ h2, h3, h6 {
     font-weight: 600;
 }
 
-/* Flicker background on hover for primary button */
+/* Flicker background + text on hover for primary button */
 .button:hover {
-    animation: button-flicker 420ms steps(1, end) forwards;
+    animation: button-flicker 350ms steps(1, end) forwards;
 }
 
 @keyframes button-flicker {
-    0%   { background-color: var(--color-primary-button-background); }
-    12%  { background-color: var(--color-primary-button-hover-background); }
-    24%  { background-color: var(--color-primary-button-background); }
-    40%  { background-color: var(--color-primary-button-hover-background); }
-    52%  { background-color: var(--color-primary-button-background); }
-    100% { background-color: var(--color-primary-button-hover-background); }
+    0%   { background-color: var(--color-primary-button-background); color: var(--color-primary-button-text); }
+    8%   { background-color: var(--color-primary-button-hover-background); color: var(--color-primary-button-hover-text); }
+    16%  { background-color: var(--color-primary-button-background); color: var(--color-primary-button-text); }
+    28%  { background-color: var(--color-primary-button-hover-background); color: var(--color-primary-button-hover-text); }
+    36%  { background-color: var(--color-primary-button-background); color: var(--color-primary-button-text); }
+    100% { background-color: var(--color-primary-button-hover-background); color: var(--color-primary-button-hover-text); }
 }
 
 /* Respect reduced motion preferences */
