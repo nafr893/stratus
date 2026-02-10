@@ -1354,7 +1354,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h3>STAY UPDATED</h3>",
+            "text": "<h3>REGISTER NOW</h3>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -1379,7 +1379,7 @@
         "text_YHQBKe": {
           "type": "text",
           "settings": {
-            "text": "<p>Be the first to know about new collections and special offers. </p>",
+            "text": "<p>Be the first to know about our pre sale launch.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
