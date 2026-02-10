@@ -42,12 +42,10 @@ h2, h3, h6 {
 
 @keyframes button-flicker {
     0%   { background-color: var(--color-primary-button-background); }
-    10%  { background-color: var(--color-primary-button-hover-background); }
-    18%  { background-color: var(--color-primary-button-background); }
-    28%  { background-color: var(--color-primary-button-hover-background); }
-    36%  { background-color: var(--color-primary-button-background); }
-    52%  { background-color: var(--color-primary-button-hover-background); }
-    60%  { background-color: var(--color-primary-button-background); }
+    12%  { background-color: var(--color-primary-button-hover-background); }
+    24%  { background-color: var(--color-primary-button-background); }
+    40%  { background-color: var(--color-primary-button-hover-background); }
+    52%  { background-color: var(--color-primary-button-background); }
     100% { background-color: var(--color-primary-button-hover-background); }
 }
 
