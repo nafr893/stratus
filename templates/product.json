@@ -586,7 +586,7 @@
                     "text_XpWxV6": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>This is an example overview for product specs</p>",
+                        "text": "<p>Drift technology: Patent pending tech, drifting your second pin so its always 10 yards apart.<br/><br/>Axis: 1st 2nd and 3rd axis adjustments<br/><br/>Micro pin adjustment: Top pin is fixed, second pin has micro elevation adjustment<br/><br/>Dual sided sight tapes<br/><br/>Large wheel for quick range adjustment<br/><br/>Lockout lever for scope travel<br/><br/>Micro sight in adjustment: Micro adjustment on both elevation and windage, with a tool or toolless lockout for windage.<br/><br/>Bubble level: top or bottom configurable<br/><br/>Pin size: .019<br/><br/>Mounting options: Dovetail side mount, Pic Rail, Matthews Bridgelock</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -993,7 +993,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h3>STABLE MOUNT</h3>",
+                    "text": "<h3>DRIFT TECHNOLOGY</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1019,7 +1019,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+                    "text": "<p>Patent pending tech, drifting your second pin so its always 10 yards apart.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1115,7 +1115,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h3>Feature 3</h3>",
+                    "text": "<h3>AXIS ADJSUTMENT</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1141,7 +1141,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+                    "text": "<p>1st 2nd and 3rd axis adjustments.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1237,7 +1237,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h3>FEATURE 3</h3>",
+                    "text": "<h3>MICRO SIGHT IN ADJUSTMENT</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1263,7 +1263,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+                    "text": "<p>Micro adjustment on both elevation and windage, with a tool or toolless lockout for windage.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
