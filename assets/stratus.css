@@ -32,7 +32,50 @@ h2, h3, h6 {
 }
 
 .button {
-    font-weight: 600; 
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Flicker overlay for primary button hover */
+.button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--color-primary-button-hover-background);
+    opacity: 0;
+    pointer-events: none;
+    border-radius: inherit;
+    z-index: 0;
+}
+
+/* Ensure button text stays above the flicker overlay */
+.button > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Trigger flicker on hover */
+.button:hover::before {
+    animation: button-flicker 420ms steps(1, end);
+}
+
+@keyframes button-flicker {
+    0%   { opacity: 0; }
+    10%  { opacity: 1; }
+    18%  { opacity: 0; }
+    28%  { opacity: 1; }
+    36%  { opacity: 0; }
+    52%  { opacity: 1; }
+    60%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    .button:hover::before {
+        animation: none;
+    }
 }
 
 /* account icon settings */ 
