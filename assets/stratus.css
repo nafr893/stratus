@@ -88,7 +88,7 @@ span.show-more__label.span.show-more__label--more {
   
 }
 button.show-more__button.button-unstyled.button-unstyled--with-icon.mobile:hidden {
-padding-top: 10px !important;
+margin-top: 10px !important;
 padding-bottom: 10px; 
 }
 
