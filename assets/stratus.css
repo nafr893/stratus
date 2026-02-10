@@ -61,6 +61,7 @@ h1,h2, h3, h6 {
 .media-gallery__show-more .show-more__button {
     margin-block-start: var(--image-gap, 8px);
     width: 100%;
+    margin-top: 10px !important; 
     justify-content: center;
 }
 
@@ -87,10 +88,7 @@ span.show-more__label.span.show-more__label--more {
     font-weight: bold; 
   
 }
-button.show-more__button.button-unstyled.button-unstyled--with-icon.mobile:hidden {
-    margin-top: 15px !important;
 
-}
 
 .show-more__label {
     font-weight: bold !important; 
