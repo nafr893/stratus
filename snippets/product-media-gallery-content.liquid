@@ -507,7 +507,7 @@
         {% if render_grid_show_more %}
           <ul
             ref="showMoreItems[]"
-            class="media-gallery__grid list-unstyled desktop:hidden"
+            class="media-gallery__grid list-unstyled hidden"
           >
             {% for media in sorted_media %}
               {% if forloop.index <= media_grid_limit %}
