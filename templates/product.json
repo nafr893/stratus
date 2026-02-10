@@ -968,18 +968,18 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "image_hWTD8J": {
-                  "type": "image",
-                  "name": "t:names.image",
+                "video_pRejyM": {
+                  "type": "video",
+                  "name": "t:names.video",
                   "settings": {
-                    "image": "shopify://shop_images/IMG_0293.webp",
-                    "link": "",
-                    "image_ratio": "square",
-                    "width": "fill",
+                    "source": "uploaded",
+                    "video": "shopify://files/videos/sTRATUSDRIFTRENDER2.1399.mp4",
+                    "video_autoplay": true,
+                    "video_loop": true,
+                    "alt": "",
                     "custom_width": 100,
-                    "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "fit",
+                    "aspect_ratio": "auto",
                     "border": "none",
                     "border_width": 1,
                     "border_opacity": 100,
@@ -1045,7 +1045,7 @@
                 }
               },
               "block_order": [
-                "image_hWTD8J",
+                "video_pRejyM",
                 "text_XnDjPf",
                 "text_fDAAKP"
               ]
@@ -1606,7 +1606,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h3>REGISTER NOW</h3>",
+            "text": "<h3>JOIN THE WAITLISt</h3>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
