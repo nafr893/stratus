@@ -409,7 +409,7 @@
                     "text_D7FVPV": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our goal is for every customer to be totally satisfied with their purchase. If this isn't the case, let us know and we'll do our best to work with you to make it right.</p>",
+                        "text": "<p>This is an example paragraph of text for product overview</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -448,7 +448,7 @@
                     "text_XpWxV6": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                        "text": "<p>This is an example overview for product specs</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -802,7 +802,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h3>New arrivals</h3>",
+                    "text": "<h3>Feature 3</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -924,7 +924,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h3>New arrivals</h3>",
+                    "text": "<h3>FEATURE 3</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
