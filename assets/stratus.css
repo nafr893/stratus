@@ -81,4 +81,13 @@ cart-icon.header-actions__cart-icon {
       
 span.menu-list__link-title {
     font-weight: bold; 
+
+}
+span.show-more__label.span.show-more__label--more {
+    font-weight: bold; 
+    text-decoration:  underline; 
+}
+button.show-more__button.button-unstyled.button-unstyled--with-icon.mobile:hidden {
+padding-top: 10px;
+padding-bottom: 10px; 
 }
