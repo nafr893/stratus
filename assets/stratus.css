@@ -57,11 +57,17 @@ h1,h2, h3, h6 {
     }
 }
 
+/* Product media grid — hide items beyond 8 on desktop */
+@media screen and (min-width: 750px) {
+    .media-gallery__grid--truncated > li:nth-child(n+9) {
+        display: none;
+    }
+}
+
 /* Product media grid show more button */
-.media-gallery__show-more .show-more__button {
-    margin-block-start: var(--image-gap, 8px);
+.media-gallery__show-more-btn {
+    margin-top: 15px !important;
     width: 100%;
-    margin-top: 15px !important; 
     justify-content: center;
 }
 
