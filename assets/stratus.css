@@ -46,6 +46,7 @@ h2, h3, h6 {
     16%  { background-color: var(--color-primary-button-background); color: var(--color-primary-button-text); }
     28%  { background-color: var(--color-primary-button-hover-background); color: var(--color-primary-button-hover-text); }
     36%  { background-color: var(--color-primary-button-background); color: var(--color-primary-button-text); }
+    68%  { background-color: var(--color-primary-button-hover-background); color: var(--color-primary-button-hover-text); }
     100% { background-color: var(--color-primary-button-hover-background); color: var(--color-primary-button-hover-text); }
 }
 
