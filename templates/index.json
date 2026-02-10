@@ -688,7 +688,7 @@
           "type": "text",
           "settings": {
             "text": "<p>We'll make sure to send you the latest news on product development, and launch info. </p>",
-            "width": "100%",
+            "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
             "type_preset": "paragraph",
