@@ -82,6 +82,13 @@
     "variant_button_radius": 14,
     "variant_button_width": "equal-width-buttons",
     "content_for_index": [],
+    "blocks": {
+      "6584037165345061981": {
+        "type": "shopify://apps/vicify-preorder-and-presale/blocks/block/3a0c6224-bb5f-496e-8d39-b1f8c7a11010",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
