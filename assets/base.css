@@ -4969,11 +4969,6 @@ product-recommendations:has([data-has-recommendations='false']) {
 
 
 
-/* slideshow css editing */ 
-slideshow-slide {
-    display: flex !important;  
-    flex-direction: row !important; 
-}
 
 
 div#shopify-section-template--20454107480254__slideshow_JaVMPc {
