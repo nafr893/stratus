@@ -4980,6 +4980,11 @@ aspect-ratio: 1 / 1 !important;
 
 slideshow-component.slideshow--content-below-media slideshow-slide {
 display: flex; 
-flex-direction: row; 
+flex-direction: row;
+.slide__content
+{
+  width: 70% !important
+}
+
 }
 }
