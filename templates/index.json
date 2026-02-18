@@ -932,7 +932,7 @@
           "type": "_slide",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/Stratus_Review_1.png",
+            "image_1": "shopify://shop_images/Stratus_review_Pic_1_mobile.png",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -1053,7 +1053,7 @@
           "type": "_slide",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/Stratus_Review_Pic_2.png",
+            "image_1": "shopify://shop_images/stratus_review_pic_2_mobile.png",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
