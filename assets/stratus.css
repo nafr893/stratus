@@ -102,11 +102,23 @@ span.show-more__label.span.show-more__label--more {
 
 
 
+
+
 /* Product media grid — hide items beyond 8 on desktop */
 @media screen and (min-width: 750px) {
-
-slideshow-component.slideshow--content-below-medi.slideshow-slide {
+div#shopify-section-template--20454107480254__slideshow_JaVMPc {
+slideshow-slide {
     display: flex !important;  
+    flex-direction: row !important; 
 }
 
+
+}
+}
+
+div#shopify-section-template--20454107480254__slideshow_JaVMPc {
+
+img.slide__image {
+  aspect-ratio: 1 / 1;
+}
 }
