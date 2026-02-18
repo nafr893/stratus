@@ -4980,8 +4980,10 @@ img.slide__image {
 aspect-ratio: 1 / 1 !important; 
 }
 }
+@media screen and (min-width: 750px) {
 
 slideshow-component.slideshow--content-below-media slideshow-slide {
 display: flex; 
 flex-direction: row; 
+}
 }
