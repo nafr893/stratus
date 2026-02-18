@@ -99,3 +99,14 @@ span.show-more__label.span.show-more__label--more {
 .show-more__label {
     font-weight: bold !important; 
 }
+
+
+
+/* Product media grid — hide items beyond 8 on desktop */
+@media screen and (min-width: 750px) {
+
+slideshow-component.slideshow--content-below-medi.slideshow-slide {
+    display: flex !important;  
+}
+
+}
