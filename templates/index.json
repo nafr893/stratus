@@ -905,7 +905,8 @@
         "slide_KMKGDx",
         "slide_QXfk6q"
       ],
-      "name": "t:names.slideshow_inset",
+      "disabled": true,
+      "name": "Reviews Desktop",
       "settings": {
         "display_mode": "full_frame",
         "section_width": "full-width",
@@ -1174,7 +1175,7 @@
         "slide_dzKbGX",
         "slide_aJVMPK"
       ],
-      "name": "t:names.slideshow_inset",
+      "name": "Reviews Mobile",
       "settings": {
         "display_mode": "full_frame",
         "section_width": "full-width",
