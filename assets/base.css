@@ -3940,7 +3940,7 @@ slideshow-component {
 }
 
 slideshow-component.slideshow--content-below-media slideshow-slide {
-  display: grid;
+  display: flex;
 }
 
 .slideshow--content-below-media slideshow-slide :is(.slide__image-container, .slide__content) {
