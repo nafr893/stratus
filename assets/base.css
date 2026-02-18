@@ -4964,3 +4964,24 @@ product-recommendations:has([data-has-recommendations='false']) {
     translate: 0px var(--atc-destination, 0px);
   }
 }
+
+
+
+
+/* slideshow css editing */ 
+slideshow-slide {
+    display: flex !important;  
+    flex-direction: row !important; 
+}
+
+
+div#shopify-section-template--20454107480254__slideshow_JaVMPc {
+img.slide__image {
+aspect-ratio: 1 / 1 !important; 
+}
+}
+
+slideshow-component.slideshow--content-below-media slideshow-slide {
+display: flex; 
+flex-direction: row; 
+}
