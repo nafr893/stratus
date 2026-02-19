@@ -1381,6 +1381,7 @@
             "image_Brt9MA": {
               "type": "image",
               "name": "t:names.image",
+              "disabled": true,
               "settings": {
                 "image": "shopify://shop_images/5_Star_White.png",
                 "link": "",
@@ -1503,6 +1504,7 @@
             "image_dqRHzQ": {
               "type": "image",
               "name": "t:names.image",
+              "disabled": true,
               "settings": {
                 "image": "shopify://shop_images/5_Star_White.png",
                 "link": "",
