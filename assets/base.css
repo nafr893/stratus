@@ -4995,3 +4995,10 @@ div#shopify-section-template--20454107545790__slideshow_wGnYJA {
 }
 
 }
+/* hide review product section on mobile */ 
+  @media (max-width: 480px) {
+div#shopify-section-template--20454107545790__section_qF6Dt7 {
+display: none !important; 
+}
+
+  }
