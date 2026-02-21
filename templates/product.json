@@ -588,7 +588,7 @@
                     "text_XpWxV6": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Drift technology: Patent pending tech, drifting your second pin so its always 10 yards apart.<br/><br/>Axis: 1st 2nd and 3rd axis adjustments<br/><br/>Micro pin adjustment: Top pin is fixed, second pin has micro elevation adjustment<br/><br/>Dual sided sight tapes<br/><br/>Large wheel for quick range adjustment<br/><br/>Lockout lever for scope travel<br/><br/>Micro sight in adjustment: Micro adjustment on both elevation and windage, with a tool or toolless lockout for windage.<br/><br/>Bubble level: top or bottom configurable<br/><br/>Pin size: .019<br/><br/>Mounting options: Dovetail side mount, Pic Rail, Matthews Bridgelock</p>",
+                        "text": "<p>Drift technology: Patent pending tech, drifting your second pin so it's always 10 yards apart.</p><p>Calculated for FPS range of 220-330 fps.</p><p>Axis: 1st, 2nd and 3rd axis adjustments</p><p>Micro pin adjustment: Top pin is fixed, second pin has micro elevation adjustment</p><p>Dual sided sight tapes</p><p>Sight tapes: Metal tape backer, with adjustable positioning, Sticker sight tape sheet included.</p><p>Aperture: Pin brightness adjustment</p><p>Large wheel for quick range adjustment</p><p>Lockout lever for scope travel</p><p>Micro sight in adjustment: Micro adjustment on both elevation and windage, with a tool or toolless lockout for windage.</p><p>Bubble level: Top or bottom configurable</p><p>Pin size: .015”</p><p>Pin Color: Green top, red bottom</p><p>Scope housing: 40mm ID</p><p>Weight:</p><p>Bridgelock- </p><p>Picatinny-</p><p>Side mount dovetail- 13.5 oz</p><p>Mounting options: Dovetail side mount, Pic Rail, Matthews Bridgelock</p><p>Future accessories post launch:</p><ul><li>An “extra pin” single post mounted in bottom of housing</li><li>Sight Light, replaces aperture</li><li>Lense Kit</li></ul>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -757,7 +757,7 @@
                     "text_rPmw3x": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Made with:<br/>Aerospace grade aluminum 6061 T6 AL<br/>Delrin<br/>Stainless Steel<br/>PA 950 Polymer</p>",
+                        "text": "<p>Materials: </p><ul><li>Aerospace grade aluminum 6061 T6 AL</li><li>Delrin</li><li>Stainless Steel</li><li>PA 12 Nylon</li></ul>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
