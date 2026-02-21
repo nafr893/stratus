@@ -55,6 +55,7 @@
             "text_cwDCAP": {
               "type": "text",
               "name": "t:names.text",
+              "disabled": true,
               "settings": {
                 "text": "<h6>INTRODUCING</h6>",
                 "width": "fit-content",
@@ -81,6 +82,7 @@
             "text_tRNgQn": {
               "type": "text",
               "name": "t:names.heading",
+              "disabled": true,
               "settings": {
                 "text": "<h3>THE STRATUS DRIFT</h3>",
                 "width": "fit-content",
@@ -149,13 +151,13 @@
         "vertical_alignment": "flex-end",
         "align_baseline": true,
         "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "flex-end",
+        "vertical_alignment_flex_direction_column": "flex-start",
         "gap": 24,
         "section_width": "page-width",
         "section_height": "custom",
         "section_height_custom": 90,
         "color_scheme": "scheme-6",
-        "toggle_overlay": true,
+        "toggle_overlay": false,
         "overlay_color": "#12121266",
         "overlay_style": "gradient",
         "gradient_direction": "to top",
