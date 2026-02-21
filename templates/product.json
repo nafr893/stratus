@@ -615,10 +615,180 @@
                     "text_XpWxV6"
                   ]
                 },
-                "accordion_row_yMyhqc": {
+                "accordion_row_P8daBV": {
                   "type": "_accordion-row",
                   "settings": {
                     "heading": "MATERIALS",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "group_xG4MaE": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 12,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "inherit_color_scheme": true,
+                        "color_scheme": "",
+                        "background_media": "none",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {
+                        "group_FVLUBz": {
+                          "type": "group",
+                          "name": "t:names.group",
+                          "disabled": true,
+                          "settings": {
+                            "content_direction": "row",
+                            "vertical_on_mobile": true,
+                            "horizontal_alignment": "flex-start",
+                            "vertical_alignment": "center",
+                            "align_baseline": false,
+                            "horizontal_alignment_flex_direction_column": "flex-start",
+                            "vertical_alignment_flex_direction_column": "center",
+                            "gap": 12,
+                            "width": "fill",
+                            "custom_width": 100,
+                            "width_mobile": "fill",
+                            "custom_width_mobile": 100,
+                            "height": "fit",
+                            "custom_height": 100,
+                            "inherit_color_scheme": true,
+                            "color_scheme": "",
+                            "background_media": "none",
+                            "video_position": "cover",
+                            "background_image_position": "cover",
+                            "border": "none",
+                            "border_width": 1,
+                            "border_opacity": 100,
+                            "border_radius": 0,
+                            "toggle_overlay": false,
+                            "overlay_color": "#00000026",
+                            "overlay_style": "solid",
+                            "gradient_direction": "to top",
+                            "link": "",
+                            "open_in_new_tab": false,
+                            "placeholder": "",
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {
+                            "icon_DUGT4a": {
+                              "type": "icon",
+                              "name": "t:names.icon",
+                              "settings": {
+                                "icon": "price_tag",
+                                "image_upload": "shopify://shop_images/AdobeStock_104221787.jpg",
+                                "width": 24,
+                                "link": "",
+                                "open_in_new_tab": false
+                              },
+                              "blocks": {}
+                            },
+                            "text_JGnpe6": {
+                              "type": "text",
+                              "name": "t:names.text",
+                              "settings": {
+                                "text": "<p><strong>MADE IN THE USA</strong></p>",
+                                "width": "fit-content",
+                                "max_width": "normal",
+                                "alignment": "left",
+                                "type_preset": "rte",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "color": "var(--color-foreground)",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                              },
+                              "blocks": {}
+                            }
+                          },
+                          "block_order": [
+                            "icon_DUGT4a",
+                            "text_JGnpe6"
+                          ]
+                        }
+                      },
+                      "block_order": [
+                        "group_FVLUBz"
+                      ]
+                    },
+                    "text_rPmw3x": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Made with:<br/>Aerospace grade aluminum 6061 T6 AL<br/>Delrin<br/>Stainless Steel<br/>PA 950 Polymer</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "group_xG4MaE",
+                    "text_rPmw3x"
+                  ]
+                },
+                "accordion_row_yMyhqc": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "WARRANTY",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -757,7 +927,7 @@
                     "text_WxMMU8": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Made with:<br/>Aerospace grade aluminum 6061 T6 AL<br/>Delrin<br/>Stainless Steel<br/>PA 950 Polymer</p>",
+                        "text": "<p>Warranty info<strong>:</strong> Covered by our Lifetime Warranty. We will repair or replace your Stratus Archery product in the event it becomes damaged or defective—at no charge to you. If we cannot repair your product, we will replace it.</p><p>What’s not covered:</p><ul><li>Damage from misuse, mishandling, cosmetic damage, theft or accidents</li><li>Products that have been modified, altered, or disassembled</li><li>If the issue is not covered under warranty, we’ll contact you with reasonable repair and return shipping costs before proceeding.</li></ul><p><br/></p><p>Returns: 14 day Satisfaction guarantee. Within 14 days upon receiving, after submitting a warranty request you may return your product for a refund.</p><p><br/></p><p>Additional information: </p><p>\t-Upon discussion if a part can be replaced reasonably by you, and is quicker to do so. We will send the replacement parts needed to you.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -789,6 +959,7 @@
               "block_order": [
                 "accordion_row_4NpCMC",
                 "accordion_row_nJhkYh",
+                "accordion_row_P8daBV",
                 "accordion_row_yMyhqc"
               ]
             },
