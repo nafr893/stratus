@@ -1003,12 +1003,39 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "text_dfjY6y": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><em>If you don't </em>receive<em> a confirmation email, check your spam folder. </em></p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "text_wBgUa4",
         "text_ECpXwV",
-        "email_signup_tJREfE"
+        "email_signup_tJREfE",
+        "text_dfjY6y"
       ],
       "name": "t:names.email_signup",
       "settings": {
