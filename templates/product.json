@@ -580,7 +580,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><em>Orders will be fulfilled in sequential order starting in June.</em></p>",
+                "text": "<p><em>Orders will be fulfilled in sequential order starting in June.  </em></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
