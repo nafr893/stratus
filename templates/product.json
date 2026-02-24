@@ -463,6 +463,7 @@
             "text_Ak8qBP": {
               "type": "text",
               "name": "t:names.heading",
+              "disabled": true,
               "settings": {
                 "text": "<h3>REGISTER FOR PRE LAUNCH</h3>",
                 "width": "fit-content",
@@ -489,6 +490,7 @@
             "email_signup_3e9MNX": {
               "type": "email-signup",
               "name": "t:names.email_signup",
+              "disabled": true,
               "settings": {
                 "width": "fill",
                 "custom_width": 100,
@@ -515,6 +517,7 @@
             "text_DdBWhg": {
               "type": "text",
               "name": "t:names.text",
+              "disabled": true,
               "settings": {
                 "text": "<p><em>If you don't </em>receive<em> a confirmation email, check your spam folder. </em></p>",
                 "width": "fit-content",
