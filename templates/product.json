@@ -406,7 +406,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p><em>All pre orders are 10% OFF! Auto Applied at Checkout</em></p>",
+                    "text": "<p><em>10% OFF PRE-SALE PRICE is $558!</em></p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
