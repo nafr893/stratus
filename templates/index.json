@@ -130,6 +130,9 @@
         "group_qqR4R3",
         "button_H9gpTf"
       ],
+      "custom_css": [
+        "@media (max-width: 749px) {#Hero-template--20454107480254__hero_jVaWmY.hero {--hero-min-height: 25vh !important; min-height: 25vh !important; height: 25vh !important; } #Hero-template--20454107480254__hero_jVaWmY .hero__media, #Hero-template--20454107480254__hero_jVaWmY .hero__media-grid, #Hero-template--20454107480254__hero_jVaWmY video {height: 25vh !important; min-height: 25vh !important; }}"
+      ],
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "video",
@@ -1063,7 +1066,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 40,
-        "padding-block-end": 40
+        "padding-block-end": 100
       }
     }
   },
