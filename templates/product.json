@@ -421,8 +421,9 @@
             },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
+              "disabled": true,
               "settings": {
-                "variant_style": "buttons",
+                "variant_style": "dropdowns",
                 "show_swatches": false,
                 "alignment": "left",
                 "padding-block-start": 0,
