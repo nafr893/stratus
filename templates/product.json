@@ -133,6 +133,9 @@
         "group_pejBeF",
         "button_fwm4rn"
       ],
+      "custom_css": [
+        "@media (max-width: 749px) {#Hero-template--20454107545790__hero_wJXfjK.hero {--hero-min-height: 25vh !important; min-height: 25vh !important; height: 25vh !important; } #Hero-template--20454107545790__hero_wJXfjK .hero__media, #Hero-template--20454107545790__hero_wJXfjK .hero__media-grid, #Hero-template--20454107545790__hero_wJXfjK video {height: 25vh !important; min-height: 25vh !important; }}"
+      ],
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "video",
