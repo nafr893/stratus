@@ -406,7 +406,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p><em>All pre orders are 10% OFF</em></p><p><em>Orders will start to be fulfilled in June in sequential order</em></p>",
+                    "text": "<p><em>All pre orders are 10% OFF</em></p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
