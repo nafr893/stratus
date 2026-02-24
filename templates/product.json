@@ -447,6 +447,20 @@
               },
               "blocks": {}
             },
+            "variant_picker_cQirta": {
+              "type": "variant-picker",
+              "name": "t:names.product_variant_picker",
+              "settings": {
+                "variant_style": "dropdowns",
+                "show_swatches": true,
+                "alignment": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 8,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
               "settings": {
@@ -1079,6 +1093,7 @@
             "group_xjgkCQ",
             "group_icgrde",
             "divider_VJhene",
+            "variant_picker_cQirta",
             "variant_picker_R3rGDr",
             "text_Ak8qBP",
             "email_signup_3e9MNX",
