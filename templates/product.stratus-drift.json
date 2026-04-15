@@ -406,7 +406,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p><em>10% OFF PRE-SALE PRICE is $558!</em></p>",
+                    "text": "<p><em>10% OFF FOR PRE-SALE</em></p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -449,6 +449,7 @@
             },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
+              "disabled": true,
               "settings": {
                 "variant_style": "dropdowns",
                 "show_swatches": false,
@@ -463,9 +464,8 @@
             "text_Ak8qBP": {
               "type": "text",
               "name": "t:names.heading",
-              "disabled": true,
               "settings": {
-                "text": "<h3>REGISTER FOR PRE LAUNCH</h3>",
+                "text": "<h3>JOIN WAITLIST FOR SECOND ROUND OF ORDERS</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -490,7 +490,6 @@
             "email_signup_3e9MNX": {
               "type": "email-signup",
               "name": "t:names.email_signup",
-              "disabled": true,
               "settings": {
                 "width": "fill",
                 "custom_width": 100,
@@ -517,7 +516,6 @@
             "text_DdBWhg": {
               "type": "text",
               "name": "t:names.text",
-              "disabled": true,
               "settings": {
                 "text": "<p><em>If you don't </em>receive<em> a confirmation email, check your spam folder. </em></p>",
                 "width": "fit-content",
@@ -543,6 +541,7 @@
             },
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
+              "disabled": true,
               "settings": {
                 "stacking": true,
                 "show_pickup_availability": false,
@@ -580,7 +579,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><em>Orders will be fulfilled in sequential order starting in June.  </em></p>",
+                "text": "<p><em>Orders made in March will be fulfilled in sequential order starting in June 2026. Will be </em>available<em> for second round of orders October 2024. Join the watlist!</em></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
