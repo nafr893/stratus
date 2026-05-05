@@ -1,6 +1,777 @@
+{% doc %}
+  @prompt
+    Create a layout section for a "Set Up" page that includes: a grid of video tutorial cards (each with an embedded video placeholder, a title, and a short description), followed by a numbered step-by-step instructions section where each step has a number, a heading, and a body text area. The layout should be clean and easy to scan, with clear visual separation between the video grid and the steps. All content should be editable via the theme editor.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-setup-layout-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: {{ block.settings.section_spacing }}px 20px;
+  }
+
+  .ai-setup-section-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.section_spacing }}px;
+  }
+
+  .ai-setup-section-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.section_title_size }}px;
+    margin-bottom: {{ block.settings.title_spacing }}px;
+    color: {{ block.settings.text_color }};
+    text-align: {{ block.settings.section_title_alignment }};
+  }
+
+  .ai-video-grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.videos_per_row_desktop }}, 1fr);
+    gap: {{ block.settings.grid_gap }}px;
+    margin-bottom: {{ block.settings.section_spacing }}px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-video-grid-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.videos_per_row_mobile }}, 1fr);
+    }
+  }
+
+  .ai-video-card-{{ ai_gen_id }} {
+    background-color: {{ block.settings.card_background }};
+    border: {{ block.settings.card_border_width }}px solid {{ block.settings.card_border_color }};
+    border-radius: {{ block.settings.card_border_radius }}px;
+    padding: {{ block.settings.card_padding }}px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .ai-video-placeholder-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    background-color: {{ block.settings.video_placeholder_bg }};
+    border-radius: {{ block.settings.video_border_radius }}px;
+    overflow: hidden;
+  }
+
+  .ai-video-placeholder-{{ ai_gen_id }} svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    opacity: 0.3;
+  }
+
+  .ai-video-card-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.card_title_size }}px;
+    font-weight: 600;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+  }
+
+  .ai-video-card-description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.card_description_size }}px;
+    color: {{ block.settings.text_color }};
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .ai-steps-container-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.step_spacing }}px;
+  }
+
+  .ai-step-item-{{ ai_gen_id }} {
+    display: flex;
+    gap: {{ block.settings.step_number_gap }}px;
+    align-items: flex-start;
+  }
+
+  .ai-step-number-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    width: {{ block.settings.step_number_size }}px;
+    height: {{ block.settings.step_number_size }}px;
+    border-radius: 50%;
+    background-color: {{ block.settings.step_number_bg }};
+    color: {{ block.settings.step_number_color }};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: {{ block.settings.step_number_font_size }}px;
+    font-weight: 700;
+  }
+
+  .ai-step-content-{{ ai_gen_id }} {
+    flex-grow: 1;
+  }
+
+  .ai-step-heading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.step_heading_size }}px;
+    font-weight: 600;
+    color: {{ block.settings.text_color }};
+    margin: 0 0 8px 0;
+  }
+
+  .ai-step-body-{{ ai_gen_id }} {
+    font-size: {{ block.settings.step_body_size }}px;
+    color: {{ block.settings.text_color }};
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .ai-divider-{{ ai_gen_id }} {
+    height: {{ block.settings.divider_height }}px;
+    background-color: {{ block.settings.divider_color }};
+    border: none;
+    margin: {{ block.settings.section_spacing }}px 0;
+  }
+{% endstyle %}
+
+<setup-page-{{ ai_gen_id }} class="ai-setup-layout-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.video_section_title != blank %}
+    <div class="ai-setup-section-{{ ai_gen_id }}">
+      <h2 class="ai-setup-section-title-{{ ai_gen_id }}">{{ block.settings.video_section_title }}</h2>
+      
+      <div class="ai-video-grid-{{ ai_gen_id }}">
+        {% for i in (1..6) %}
+          {% liquid
+            assign video_title_key = 'video_' | append: i | append: '_title'
+            assign video_desc_key = 'video_' | append: i | append: '_description'
+            assign video_title = block.settings[video_title_key]
+            assign video_desc = block.settings[video_desc_key]
+          %}
+          
+          {% if video_title != blank %}
+            <div class="ai-video-card-{{ ai_gen_id }}">
+              <div class="ai-video-placeholder-{{ ai_gen_id }}">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <h3 class="ai-video-card-title-{{ ai_gen_id }}">{{ video_title }}</h3>
+              {% if video_desc != blank %}
+                <p class="ai-video-card-description-{{ ai_gen_id }}">{{ video_desc }}</p>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if block.settings.show_divider %}
+    <hr class="ai-divider-{{ ai_gen_id }}">
+  {% endif %}
+
+  {% if block.settings.steps_section_title != blank %}
+    <div class="ai-setup-section-{{ ai_gen_id }}">
+      <h2 class="ai-setup-section-title-{{ ai_gen_id }}">{{ block.settings.steps_section_title }}</h2>
+      
+      <div class="ai-steps-container-{{ ai_gen_id }}">
+        {% for i in (1..10) %}
+          {% liquid
+            assign step_heading_key = 'step_' | append: i | append: '_heading'
+            assign step_body_key = 'step_' | append: i | append: '_body'
+            assign step_heading = block.settings[step_heading_key]
+            assign step_body = block.settings[step_body_key]
+          %}
+          
+          {% if step_heading != blank %}
+            <div class="ai-step-item-{{ ai_gen_id }}">
+              <div class="ai-step-number-{{ ai_gen_id }}">{{ i }}</div>
+              <div class="ai-step-content-{{ ai_gen_id }}">
+                <h3 class="ai-step-heading-{{ ai_gen_id }}">{{ step_heading }}</h3>
+                {% if step_body != blank %}
+                  <div class="ai-step-body-{{ ai_gen_id }}">{{ step_body }}</div>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</setup-page-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class SetupPage{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.style.display = 'block';
+      }
+    }
+
+    customElements.define('setup-page-{{ ai_gen_id }}', SetupPage{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Setup page layout",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "section_spacing",
+      "label": "Section spacing",
+      "min": 20,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "title_spacing",
+      "label": "Title spacing",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "select",
+      "id": "section_title_alignment",
+      "label": "Section title alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "header",
+      "content": "Video tutorials section"
+    },
+    {
+      "type": "text",
+      "id": "video_section_title",
+      "label": "Section title",
+      "default": "Video Tutorials"
+    },
+    {
+      "type": "range",
+      "id": "videos_per_row_desktop",
+      "label": "Videos per row (desktop)",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "select",
+      "id": "videos_per_row_mobile",
+      "label": "Videos per row (mobile)",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "range",
+      "id": "grid_gap",
+      "label": "Grid gap",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Video card style"
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "card_border_color",
+      "label": "Border color",
+      "default": "#e6e6e6"
+    },
+    {
+      "type": "range",
+      "id": "card_border_width",
+      "label": "Border width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "label": "Card border radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "card_padding",
+      "label": "Card padding",
+      "min": 10,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "color",
+      "id": "video_placeholder_bg",
+      "label": "Video placeholder background",
+      "default": "#f4f4f4"
+    },
+    {
+      "type": "range",
+      "id": "video_border_radius",
+      "label": "Video border radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "card_title_size",
+      "label": "Card title size",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "card_description_size",
+      "label": "Card description size",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Video 1"
+    },
+    {
+      "type": "text",
+      "id": "video_1_title",
+      "label": "Title",
+      "default": "Getting Started"
+    },
+    {
+      "type": "textarea",
+      "id": "video_1_description",
+      "label": "Description",
+      "default": "Learn the basics of setting up your equipment"
+    },
+    {
+      "type": "header",
+      "content": "Video 2"
+    },
+    {
+      "type": "text",
+      "id": "video_2_title",
+      "label": "Title",
+      "default": "Assembly Guide"
+    },
+    {
+      "type": "textarea",
+      "id": "video_2_description",
+      "label": "Description",
+      "default": "Step-by-step assembly instructions"
+    },
+    {
+      "type": "header",
+      "content": "Video 3"
+    },
+    {
+      "type": "text",
+      "id": "video_3_title",
+      "label": "Title",
+      "default": "Tuning & Adjustments"
+    },
+    {
+      "type": "textarea",
+      "id": "video_3_description",
+      "label": "Description",
+      "default": "Fine-tune your setup for optimal performance"
+    },
+    {
+      "type": "header",
+      "content": "Video 4"
+    },
+    {
+      "type": "text",
+      "id": "video_4_title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "video_4_description",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Video 5"
+    },
+    {
+      "type": "text",
+      "id": "video_5_title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "video_5_description",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Video 6"
+    },
+    {
+      "type": "text",
+      "id": "video_6_title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "video_6_description",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Divider"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_divider",
+      "label": "Show divider",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Divider color",
+      "default": "#e6e6e6"
+    },
+    {
+      "type": "range",
+      "id": "divider_height",
+      "label": "Divider height",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "header",
+      "content": "Step-by-step section"
+    },
+    {
+      "type": "text",
+      "id": "steps_section_title",
+      "label": "Section title",
+      "default": "Setup Instructions"
+    },
+    {
+      "type": "range",
+      "id": "step_spacing",
+      "label": "Step spacing",
+      "min": 15,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 25
+    },
+    {
+      "type": "range",
+      "id": "step_number_gap",
+      "label": "Number gap",
+      "min": 10,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Step number style"
+    },
+    {
+      "type": "range",
+      "id": "step_number_size",
+      "label": "Number circle size",
+      "min": 30,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "step_number_font_size",
+      "label": "Number font size",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "color",
+      "id": "step_number_bg",
+      "label": "Number background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "step_number_color",
+      "label": "Number color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Step text style"
+    },
+    {
+      "type": "range",
+      "id": "step_heading_size",
+      "label": "Heading size",
+      "min": 16,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "step_body_size",
+      "label": "Body size",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Step 1"
+    },
+    {
+      "type": "text",
+      "id": "step_1_heading",
+      "label": "Heading",
+      "default": "Unbox and inspect"
+    },
+    {
+      "type": "richtext",
+      "id": "step_1_body",
+      "label": "Body",
+      "default": "<p>Carefully remove all components from the packaging and verify all parts are included.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Step 2"
+    },
+    {
+      "type": "text",
+      "id": "step_2_heading",
+      "label": "Heading",
+      "default": "Prepare your workspace"
+    },
+    {
+      "type": "richtext",
+      "id": "step_2_body",
+      "label": "Body",
+      "default": "<p>Clear a flat, clean surface and gather any necessary tools.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Step 3"
+    },
+    {
+      "type": "text",
+      "id": "step_3_heading",
+      "label": "Heading",
+      "default": "Begin assembly"
+    },
+    {
+      "type": "richtext",
+      "id": "step_3_body",
+      "label": "Body",
+      "default": "<p>Follow the assembly guide to connect the main components.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Step 4"
+    },
+    {
+      "type": "text",
+      "id": "step_4_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "step_4_body",
+      "label": "Body"
+    },
+    {
+      "type": "header",
+      "content": "Step 5"
+    },
+    {
+      "type": "text",
+      "id": "step_5_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "step_5_body",
+      "label": "Body"
+    },
+    {
+      "type": "header",
+      "content": "Step 6"
+    },
+    {
+      "type": "text",
+      "id": "step_6_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "step_6_body",
+      "label": "Body"
+    },
+    {
+      "type": "header",
+      "content": "Step 7"
+    },
+    {
+      "type": "text",
+      "id": "step_7_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "step_7_body",
+      "label": "Body"
+    },
+    {
+      "type": "header",
+      "content": "Step 8"
+    },
+    {
+      "type": "text",
+      "id": "step_8_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "step_8_body",
+      "label": "Body"
+    },
+    {
+      "type": "header",
+      "content": "Step 9"
+    },
+    {
+      "type": "text",
+      "id": "step_9_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "step_9_body",
+      "label": "Body"
+    },
+    {
+      "type": "header",
+      "content": "Step 10"
+    },
+    {
+      "type": "text",
+      "id": "step_10_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "step_10_body",
+      "label": "Body"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "section_title_size",
+      "label": "Section title size",
+      "min": 20,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    }
+  ],
+  "presets": [
+    {
+      "name": "Setup page layout"
+    }
+  ]
+}
 {% endschema %}
