@@ -356,7 +356,6 @@
                 "text_xrnftG": {
                   "type": "text",
                   "name": "Product title",
-                  "disabled": true,
                   "settings": {
                     "text": "<h1>{{ closest.product.title }}</h1>",
                     "width": "100%",
@@ -382,6 +381,7 @@
                 },
                 "price_tVjtKg": {
                   "type": "price",
+                  "disabled": true,
                   "settings": {
                     "show_sale_price_first": true,
                     "show_installments": false,
@@ -405,6 +405,7 @@
                 "text_XFhXV7": {
                   "type": "text",
                   "name": "t:names.text",
+                  "disabled": true,
                   "settings": {
                     "text": "<p><em>10% OFF FOR PRE-SALE</em></p>",
                     "width": "fit-content",
