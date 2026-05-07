@@ -1893,6 +1893,7 @@
       "blocks": {
         "slide_Btw9Yp": {
           "type": "_slide",
+          "disabled": true,
           "settings": {
             "media_type_1": "image",
             "image_1": "shopify://shop_images/Stratus_review_Pic_1_mobile.png",
@@ -2016,6 +2017,7 @@
         },
         "slide_QMiKTa": {
           "type": "_slide",
+          "disabled": true,
           "settings": {
             "media_type_1": "image",
             "image_1": "shopify://shop_images/Stratus_Review_Slide_3.png",
@@ -2142,6 +2144,7 @@
         "slide_Btw9Yp",
         "slide_QMiKTa"
       ],
+      "disabled": true,
       "name": "Reviews ",
       "settings": {
         "display_mode": "full_frame",
