@@ -381,7 +381,6 @@
                 },
                 "price_tVjtKg": {
                   "type": "price",
-                  "disabled": true,
                   "settings": {
                     "show_sale_price_first": true,
                     "show_installments": false,
@@ -405,7 +404,6 @@
                 "text_XFhXV7": {
                   "type": "text",
                   "name": "t:names.text",
-                  "disabled": true,
                   "settings": {
                     "text": "<p><em>10% OFF FOR PRE-SALE</em></p>",
                     "width": "fit-content",
@@ -580,7 +578,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><em>Orders made in March will be fulfilled in sequential order starting in June 2026. Will be </em>available<em> for second round of orders October 2024. Join the watlist!</em></p>",
+                "text": "<p><em>Orders made during the March pre-order will be fulfilled in sequential order starting in June 2026. Will be </em>available<em> for second round of pre-orders October 2024. Join the </em>waitlist<em>!</em></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
