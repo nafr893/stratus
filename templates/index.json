@@ -935,7 +935,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>PRE ORDER NOW OR JOIN THE WAITLIST</h2>",
+            "text": "<h2>JOIN THE WAITLIST</h2>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -960,7 +960,7 @@
         "text_ECpXwV": {
           "type": "text",
           "settings": {
-            "text": "<p>Pre sale is live click \"take me there\" above to buy and learn more. To stay updated on later launches and information join our mailing list below</p>",
+            "text": "<p>To stay updated on future launches and information join our mailing list below</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
