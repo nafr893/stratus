@@ -464,7 +464,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h3>JOIN WAITLIST FOR SECOND ROUND OF ORDERS</h3>",
+                "text": "<h3>JOIN WAITLIST FOR first access to next batch</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
