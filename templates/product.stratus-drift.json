@@ -578,7 +578,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><em>Orders made during the March pre-order will be fulfilled in sequential order starting in June 2026. Will be </em>available<em> for second round of pre-orders October 2024. Join the </em>waitlist<em>!</em></p><p><em>Update 8/1 parts are coming in and we will deliver by the end of the month. Keep tabs via email.</em></p>",
+                "text": "<p><em>Orders made during the March pre-order will be fulfilled in sequential order starting in June 2026. Will be </em>available<em> for second round of pre-orders Fall 2026. Join the </em>waitlist<em>!</em></p><p><em>Update 8/1 parts are coming in and we will deliver by the end of the month. Keep tabs via email.</em></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
