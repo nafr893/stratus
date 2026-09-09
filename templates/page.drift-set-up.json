@@ -42,11 +42,22 @@
           "type": "page-content",
           "settings": {},
           "blocks": {}
+        },
+        "ai_gen_block_aeeae2c_BJd6Ux": {
+          "type": "ai_gen_block_aeeae2c",
+          "name": "PDF download link",
+          "settings": {
+            "pdf_url": "https://docs.google.com/document/d/1jmSU-j5roiXa1neBQRVQdWbHLRy-cLFyoJYWVpqCikw/edit?usp=sharing",
+            "link_label": "Download Setup Guide",
+            "desktop_width_percent": 100
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "heading",
-        "page-content"
+        "page-content",
+        "ai_gen_block_aeeae2c_BJd6Ux"
       ],
       "settings": {
         "content_direction": "column",
@@ -59,78 +70,35 @@
     "blocks_j6wDTe": {
       "type": "_blocks",
       "blocks": {
-        "ai_gen_block_3baaa02_FLq6WD": {
-          "type": "ai_gen_block_3baaa02",
+        "text_wtMKpe": {
+          "type": "text",
+          "name": "t:names.text",
           "settings": {
-            "desktop_width_percent": 100,
-            "section_spacing": 40,
-            "title_spacing": 20,
-            "section_title_alignment": "left",
-            "video_section_title": "Video Tutorials",
-            "videos_per_row_desktop": 3,
-            "videos_per_row_mobile": "1",
-            "grid_gap": 20,
-            "card_background": "#ffffff",
-            "card_border_color": "#e6e6e6",
-            "card_border_width": 1,
-            "card_border_radius": 8,
-            "card_padding": 15,
-            "video_placeholder_bg": "#f4f4f4",
-            "video_border_radius": 4,
-            "card_title_size": 18,
-            "card_description_size": 14,
-            "video_1_title": "Getting Started",
-            "video_1_description": "Learn the basics of setting up your equipment",
-            "video_2_title": "Assembly Guide",
-            "video_2_description": "Step-by-step assembly instructions",
-            "video_3_title": "Tuning & Adjustments",
-            "video_3_description": "Fine-tune your setup for optimal performance",
-            "video_4_title": "",
-            "video_4_description": "",
-            "video_5_title": "",
-            "video_5_description": "",
-            "video_6_title": "",
-            "video_6_description": "",
-            "show_divider": true,
-            "divider_color": "#e6e6e6",
-            "divider_height": 1,
-            "steps_section_title": "Setup Instructions",
-            "step_spacing": 25,
-            "step_number_gap": 15,
-            "step_number_size": 40,
-            "step_number_font_size": 18,
-            "step_number_bg": "#000000",
-            "step_number_color": "#ffffff",
-            "step_heading_size": 20,
-            "step_body_size": 14,
-            "step_1_heading": "Unbox and inspect",
-            "step_1_body": "<p>Carefully remove all components from the packaging and verify all parts are included.</p>",
-            "step_2_heading": "Prepare your workspace",
-            "step_2_body": "<p>Clear a flat, clean surface and gather any necessary tools.</p>",
-            "step_3_heading": "Begin assembly",
-            "step_3_body": "<p>Follow the assembly guide to connect the main components.</p>",
-            "step_4_heading": "",
-            "step_4_body": "",
-            "step_5_heading": "",
-            "step_5_body": "",
-            "step_6_heading": "",
-            "step_6_body": "",
-            "step_7_heading": "",
-            "step_7_body": "",
-            "step_8_heading": "",
-            "step_8_body": "",
-            "step_9_heading": "",
-            "step_9_body": "",
-            "step_10_heading": "",
-            "step_10_body": "",
-            "text_color": "#000000",
-            "section_title_size": 32
+            "text": "<p><strong>About the Drift</strong></p><p>The STRATUS Drift is a precision two-pin slider sight designed to provide a consistent 10-yard relationship between pins as the sight is adjusted through its range. Proper setup is essential for reliable performance. Follow the sequence in this guide before making final sight-tape adjustments.</p><p><strong>Contents</strong></p><p><strong>• </strong>1  Before You Begin</p><p><strong>• </strong>2  Mounting the Drift</p><p><strong>• </strong>3  First-Axis Adjustment</p><p><strong>• </strong>4  Second-Axis Adjustment</p><p><strong>• </strong>5  Third-Axis Adjustment</p><p><strong>• </strong>6  Initial Sighting-In</p><p><strong>• </strong>7  Setting the Drift Pin</p><p><strong>• </strong>8  Sight Tape Installation</p><p><strong>• </strong>9  Field Use</p><p><strong>• </strong>10  Maintenance</p><p><strong>• </strong>11  Troubleshooting</p><p><strong>• </strong>12  Frequently Asked Questions</p><p><strong>• </strong>13  Final Setup Checklist</p><p><strong>• </strong>14  Support & Warranty</p><p></p><p><strong>Before you start</strong></p><p><strong>What You’ll Need</strong></p><p><strong>• </strong>Stratus Drift sight</p><p><strong>• </strong>Bow with accessories installed and properly tuned</p><p><strong>• </strong>Appropriate hex/Allen wrenches</p><p><strong>• </strong>Sight leveling tools and ideally a bow vise.</p><p><strong>• </strong>Target and rangefinder</p><p><strong>• </strong>Stratus sight tape, masking tape, or custom software.</p><p><strong>01  Unboxing set up</strong></p><p><strong>Pre-Installation Check</strong></p><p><strong>□ </strong>We do recommend taking the Drift to your local proshop for mounting.</p><p><strong>□ </strong>Inspect the sight for damage or loose hardware.</p><p><strong>□ </strong>Confirm the bow is properly tuned before beginning the sight-in process.</p><p><strong>□ </strong>Verify adequate clearance between the sight, riser, cables, and other accessories</p><p><strong>Unbox and Assemble</strong></p><p>In the provided hardware bag, put one washer over each 6/32 screw. </p><p>Place the Drift bar portion onto the Drift scope portion. </p><p>Aligning the two holes on the vertical tower.</p><p>Make sure the Stratus logo on the side of the bar is facing the same direction as the scope. And the micro windage knob is facing the same way as the wheel.</p><p>Step 1. Screw in the 2 screws and their accompanying washer. Do not over tighten, make sure the 2 parts meet and are flush.</p><p><strong>02  Mounting the Drift</strong></p><p><strong>Install Sidemount</strong></p><p>Remove the Dovetail bracket from the sight. In the bare holes not containing threads. </p><p>Align with holes on the bow riser. Quiver mounting screws typically would be placed to the rear of the bow. </p><p>Mount in place utilizing 2 10-24 screws. Torque to bow manufacturer specifications.</p><p>Loosen the set screw in the bracket and slide the sight into place. Tighten the set screw into the divot of the desired position.</p><p><strong>Install Mathews Bridgelock® </strong></p><p>Loosen the set screw provided by Mathews. </p><p>Slide Bridgelock bar into riser to desired position.</p><p>Tighten set screw into divot on the sight bridgelock bar.</p><p><strong>Install Picrail</strong></p><p>Loosen the screw holding the 2 picatinny rail mount parts together. </p><p>Place on pic rail, with the scope body facing to the same side as your arrow rest.</p><p>User discretion on which slot to align ith on the picatinny rail, but keep this in mind for adjustment in the sighting in process if needed.</p><p>Torque to 18-20 inch pounds, or 15-18 inch pounds if using thread locker.</p><p><strong>03  First-Axis Adjustment</strong></p><p><strong>Procedure</strong></p><p>Establish a stable, repeatable reference for the bow, like the string and mount a levelling tool.</p><p>Mount a sight leveling tool to any flat vertical surface on the elevation tower.</p><p>Loosen both screws slightly until you can pivot smoothly. You may need to dial the scope up or down to reach. Or adjust the windage bar out of the way if it had been set up on another bow prior.</p><p>Adjust the sight until the reference is aligned.</p><p>Tighten the 1 screw once in the desired position. </p><p>Lock down both screws and recheck the alignment.</p><p><strong>Verification</strong></p><p>Confirm the sight remains aligned after tightening.</p><p><strong>04  Second-Axis Adjustment</strong></p><p><strong>Procedure</strong></p><p>Remove the scope bubble level and ring, by completely removing the phillips lock screw first if installed. the top pin can be adjusted with a ball head allen key without removing if needed, though more difficult.</p><p>With the established string-to-sight reference still level. Point the sight to a vertical level reference. </p><p>Confirm the 2 pins are vertically aligned with your level vertical reference. </p><p>If not aligned, loosen the screw of the first (central pin) in the scope housing. Move left or right until vertically aligned with your level vertical reference.</p><p>Lock down the screw once in the desired position, add lock tight if desired.</p><p>Confirm pins are vertically aligned, and perpendicular to 1st axis level reference.</p><p>Snap Scope ring back into scope housing, it can be placed with the level on top or bottom.</p><p>Screw the phillips screw back into place so it is snug, but the ring can be rotated.</p><p>Rotate ring until bubble level is level and matches first axis levelling tool position.This is more important than string and bow alignment.</p><p>Tighten phillips screw, do not over tighten.</p><p><strong>Verification</strong></p><p>Confirm the sight housing is square to each reference.</p><p>If alignment changes while tightening, repeat the adjustment and check for loose hardware.</p><p><strong>05  Third-Axis Adjustment</strong></p><p><strong>Procedure</strong></p><p>Establish the recommended uphill/downhill reference, this can be a vertical level door frame or wall. (verify with level and reference point)</p><p>Or utilize a draw board/other tool and follow manufacturers instructions.</p><p>The third-axis adjustment is directly behind the first axis adjustment and forward of the mounting brackets. On top or bottom of the sight there are 2 screws. Do not modify the screw closest to the shooter/bow. </p><p>Loosen the screw that is further forward of the 2.The set screw 90 degrees directly adjacent on the same part is the micro control. Turn both ways to understand function.</p><p>Draw the bow and aim at the vertical reference. Align the pins with the vertical reference. Which should also mean the bubble level in the scope housing is level. If this is not the case repeat steps to set the 2nd axis.</p><p>Slowly follow the vertical reference down to a 45 degree angle. Disregarding the scope level and instead keeping the pins aligned with the vertical reference. </p><p>Now look at the level. If it is not level, let down the bow and adjust with the micro set screw.</p><p>Repeat until the bubble level is level in both positions.</p><p>Tighten the lock screw and repeat the check.</p><p><strong>Verification</strong></p><p><strong> </strong>Third-axis alignment helps maintain consistent aiming geometry when shooting at steep uphill or downhill angles.verify by doing exactly that, after sighting in. Mak adjustments if needed.</p><p><strong>06  Initial Sighting-In</strong></p><p><strong>Primary Pin-Elevation</strong></p><p>Begin by loosening the lock lever, and using the main wheel adjust the sight to the “zero stop” or top of the rack. Lock into place with lock lever.</p><p>Starting at a close range get an initial idea for how far you may need to adjust.</p><p>To adjust elevation, loosen the two screws behind the elevation tower with a 7/64 allen key. Only enough to allow movement. Turn the micro turret at the top of the elevation tower.</p><p>Right to move the impacts up (sight down) Left to move the impacts down (sight up) tighten both screws.</p><p>Shoot at 20 yards, your zero stop must be at 20 yards for best performance of the drift pin.</p><p>Adjust the sight elevation to center the group.</p><p>Repeat until the group is consistently centered.</p><p><strong>Primary Pin-windage</strong></p><p>To adjust windage loosen the large knob by hand or with a 7/64 allen key length wise through the slot.</p><p>Turn the micro turret to adjust left and right. Right turn to move impacts left. Left turn to move impacts right</p><p>Shoot a consistent group.</p><p>Adjust the sight windage to center the group.</p><p>Repeat until the group is consistently centered.</p><p>Verify and double check elevation is still also good.</p><p><strong>07  Sight Tape Installation</strong></p><p><strong>Reference Marks</strong></p><p>Shoot your bow aiming with the top pin at multiple distances. Adjusting with the large wheel to correct elevation at any range past your zero. </p><p>At least shoot until you have good groups and marks at both 50 and 60 yards. For most accurate sighting in and sight tape selection complete this over the course of 2 or more shooting sessions.</p><p>You can mark these marks with a pencil on a piece of masking tape placed over the metal sight tape backer. Or you can place the included configuration tape provided on the metal sigh tape backer.</p><p>Since there are 2 sides for a sight tape and corresponding indicators. Use one side for set up and the other for where you'll be putting your sight tape long term. I like to place a strip of masking tape on the right side, make my marks, measure, print custom tape, and place the tape on the left side. This way you can verify marks and not be taking them off.</p><p><strong>Selecting a Tape</strong></p><p>Once you have the 60 yard mark verified. Measure the distance from your zero, (20 yards) or your 30 yard mark to the 60 yard mark. Compare the included sight tapes to see which aligns. </p><p>Or if you used our configuration tape, choose the tape #that your 60 yard mark aligns next to.</p><p>If in between marks adjust the sight further or closer away from the riser.</p><p>Stratus sight tapes only go to 100 yards. For distances past please consider using a sight tape custom builder like precision cut archery. Our recommendation is for all serious shooters to make custom sight tapes for the greatest accuracy.</p><p><strong>Installation</strong></p><p>Adjust the sight to your 60 yard mark, and lock with the lock lever.</p><p>Remove the metal sight tape backer from the sight. Or from the packaging. </p><p>It can be placed on either side of the sight. The sight tape has distance numbers on both sides. Only one is intended to be visible, so your sight tape indicator points directly to the marks, not numbers.</p><p>Align the lines with the edge of the desired side of the metal tape backer and stick in place. </p><p>Wrap the overhanging sticker around the edge hiding the second column of numbers.</p><p>Place onto sight and loosely mount with the 2 provided screws.</p><p>Align the indicator with the corresponding reference mark of 60 yards.</p><p>Cycle the sight through its range of movement.</p><p>Confirm the indicator tracks cleanly across the tape.</p><p><strong>Verification</strong></p><p>Shoot at several known distances and compare point of impact to the sight tape.</p><p>If the tape does not correspond to actual yardage, confirm with known marks including zero before changing anything. Then adjust sight tape up or down if needed, then replace if needed.</p><p><strong>08  Setting the Drift Pin</strong></p><p><strong>Understanding the System</strong></p><p><strong>• </strong>The primary pin establishes the main aiming reference.</p><p><strong>• </strong>The Drift pin is configured to maintain the intended 10-yard separation as the sight is moved.</p><p><strong>• </strong>The final setup should be verified at multiple distances.</p><p><strong>Setup - Mark 1</strong></p><p>Set the top pin to the top of the rack. The zero stop, which is zeroed at 20 yards.</p><p>With the sight housing centered to your peep. Shoot the bow at 30 yards aiming with the second pin. *note do not aim with the second pin central to your peep.</p><p>To adjust the second pin, loosen the set screw of the second pin. Located on the same side as the fiber wrap. Access is through a hole on the front vertical face.</p><p>After the lock screw is loosened, turn the second pin micro adjust on the top of the scope housing. Turning right moves impacts down, turning left moves impacts up.</p><p>Set the lock screw prior to shooting again. Do not over tighten.</p><p>Shoot until you have a very consistent group, this is very important for long range accuracy.</p><p><strong>Setup - Mark 2</strong></p><p>Adjust the sight until the indicator is 50 yards. This means your top pin is ready to be shot at 50 yards. Verify before proceeding.</p><p>Now shooting at 60 yards aim with the second pin, shoot a group. *note centering the scope housing to your peep, not the pin</p><p>Adjust the “Drift” by turning the turret inside of the adjustment wheel. Start with 2 turns to start efficiently.</p><p>To move impacts up turn the turret left</p><p>To move impacts down turn the turret right </p><p>Shoot a group after each adjustment until centered. </p><p><strong>Verification</strong></p><p>Verify at multiple ranges and make micro adjustments at longer ranges.</p><p>If the relationship does not remain consistent, stop and review the Drift pin setup. Primarily verifying zero, then sight marks, and then the second pin 30 yards sight in.</p><p><strong>09  Field Use</strong></p><p><strong>Using the Sight</strong></p><p>Determine target distance with a rangefinder or other appropriate method.</p><p>Move the sight to the corresponding yardage.</p><p>Confirm the indicator position.</p><p>Use the appropriate pin for the shot.</p><p>Execute the shot normally.</p><p><strong>10 Maintenance</strong></p><p><strong>Routine Inspection</strong></p><p><strong>□ </strong>Inspect mounting hardware before use.</p><p><strong>□ </strong>Check adjustment hardware and moving components.</p><p><strong>□ </strong>Inspect pins and fiber for damage.</p><p><strong>□ </strong>Check the Drift mechanism for proper movement.</p><p><strong>□ </strong>Inspect the sight tape for lifting, damage, or wear.</p><p><strong>Cleaning</strong></p><p><strong>• </strong>Use only approved cleaning methods and materials. Clean with distilled water and rubbing alcohol. Do not contact the fibers to alcohol.</p><p><strong>• </strong>If the sight travel gets stiff or sticky, clean the tracks, then add spray on dry lube if needed very lightly.</p><p><strong>• </strong>Keep dirt and debris from accumulating around adjustment mechanisms.</p><p><strong>• </strong>Use low pressure compressed air to blow into the scope housing from the second pin lock screw to remove debris.</p><p><strong>• </strong>Avoid getting twigs and leaves stuck between pins, limiting movement.</p><p><strong>• </strong>Do not force adjustment components or apply unapproved lubricants.</p><p><strong>Seasonal Check</strong></p><p><strong>□ </strong>Reconfirm all three axes.</p><p><strong>□ </strong>Verify the primary and Drift pins.</p><p><strong>□ </strong>Confirm sight-tape accuracy.</p><p><strong>□ </strong>Inspect all mounting hardware before the hunting season.</p><p><strong>Storage and Transportation</strong></p><p><strong>• </strong>Store the sight in a dry, protected environment.</p><p><strong>• </strong>Avoid unnecessary impacts or pressure on the sight housing and adjustment mechanisms.</p><p><strong>• </strong>Store in bow case especially when in dusty environment </p><p><strong>• </strong>Use a bow sight cover while in the field and not in use.</p><p><strong>14  Support & Warranty</strong></p><p><strong>Technical Support</strong></p><p><strong>• </strong>Website: stratusarchery.com</p><p><strong>• </strong>Email: mail@stratusarchery.com</p><p><strong>Warranty</strong></p><p><strong>• </strong>Lifetime warranty of defective components, and regular wear and tear from normal use. Please contact us to file a warranty claim. At <a href=\"mailto:mail@stratusarchery.com\"><span style=\"text-decoration:underline\">mail@stratusarchery.com</span></a> state the issue the defective piece. Depending on the scenario we can send out a part or we would need to get the sight back to inspect and replace if the claim is valid. Anything not covered by the warranty will have options for repair costs or replacement parts. </p><p>Situations that will void of warranty. Covering and using with excessive dust, dirt or mud and in du. For example not cleaning and using after being exposed to extreme dust </p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-heading--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {}
         }
       },
       "block_order": [
-        "ai_gen_block_3baaa02_FLq6WD"
+        "text_wtMKpe"
       ],
       "name": "Setup page layout",
       "settings": {
