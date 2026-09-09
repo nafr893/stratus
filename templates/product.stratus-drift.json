@@ -578,7 +578,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><em>Orders made during the March pre-order will be fulfilled in sequential order starting in June 2026. Will be </em>available<em> for second round of pre-orders Fall 2026. Join the </em>waitlist<em>!</em></p><p><em>Update 8/1 parts are coming in and we will deliver by the end of the month. Keep tabs via email.</em></p>",
+                "text": "<p><em>Orders made during the March pre-order will be fulfilled in sequential order starting in June 2026. Will be </em>available<em> for second round of pre-orders Winter 2026. Join the </em>waitlist<em>!</em></p><p><em>Update 9/7 Assembling units and shipping out in small batches.</em></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1009,7 +1009,7 @@
                     "text_WxMMU8": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Warranty info<strong>:</strong> Covered by our Lifetime Warranty. We will repair or replace your Stratus Archery product in the event it becomes damaged or defective—at no charge to you. If we cannot repair your product, we will replace it.</p><p>What’s not covered:</p><ul><li>Damage from misuse, mishandling, cosmetic damage, theft or accidents</li><li>Products that have been modified, altered, or disassembled</li><li>If the issue is not covered under warranty, we’ll contact you with reasonable repair and return shipping costs before proceeding.</li></ul><p><br/></p><p>Returns: 14 day Satisfaction guarantee. Within 14 days upon receiving, after submitting a warranty request you may return your product for a refund.</p><p><br/></p><p>Additional information: </p><p>\t-Upon discussion if a part can be replaced reasonably by you, and is quicker to do so. We will send the replacement parts needed to you.</p>",
+                        "text": "<p>Warranty info<strong>:</strong> Covered by our Lifetime Warranty. We will repair or replace your Stratus Archery product in the event it becomes damaged or defective—at no charge to you. If we cannot repair your product, we will replace it.</p><p>What’s not covered:</p><ul><li>Damage from misuse, mishandling, cosmetic damage, theft or accidents</li><li>Products that have been modified, altered, or disassembled</li><li>If the issue is not covered under warranty, we’ll contact you with reasonable repair and return shipping costs before proceeding.</li></ul><p></p><p>Additional information: </p><p>\t-Upon discussion if a part can be replaced reasonably by you, and is quicker to do so. We will send the replacement parts needed to you.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
