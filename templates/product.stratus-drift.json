@@ -268,50 +268,7 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "icon_8Qm6hA": {
-                  "type": "icon",
-                  "name": "t:names.icon",
-                  "settings": {
-                    "icon": "price_tag",
-                    "image_upload": "shopify://shop_images/AdobeStock_104221787.jpg",
-                    "width": 24,
-                    "link": "",
-                    "open_in_new_tab": false
-                  },
-                  "blocks": {}
-                },
-                "text_9JnEg9": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p><strong>MADE IN THE USA</strong></p>",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "0.75rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "icon_8Qm6hA",
-                "text_9JnEg9"
-              ]
+              "blocks": {}
             },
             "group_icgrde": {
               "type": "group",
@@ -448,7 +405,6 @@
             },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
-              "disabled": true,
               "settings": {
                 "variant_style": "dropdowns",
                 "show_swatches": false,
@@ -463,6 +419,7 @@
             "text_Ak8qBP": {
               "type": "text",
               "name": "t:names.heading",
+              "disabled": true,
               "settings": {
                 "text": "<h3>JOIN WAITLIST FOR first access to next batch</h3>",
                 "width": "fit-content",
@@ -489,6 +446,7 @@
             "email_signup_3e9MNX": {
               "type": "email-signup",
               "name": "t:names.email_signup",
+              "disabled": true,
               "settings": {
                 "width": "fill",
                 "custom_width": 100,
@@ -515,8 +473,9 @@
             "text_DdBWhg": {
               "type": "text",
               "name": "t:names.text",
+              "disabled": true,
               "settings": {
-                "text": "<p><em>If you don't </em>receive<em> a confirmation email, check your spam folder. </em></p>",
+                "text": "<p><em>If you don't </em>receive<em> a confirmation email, check your spam folder.&nbsp;</em></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -540,7 +499,6 @@
             },
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
-              "disabled": true,
               "settings": {
                 "stacking": true,
                 "show_pickup_availability": false,
@@ -578,7 +536,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><em>Orders made during the March pre-order will be fulfilled in sequential order starting in June 2026. Will be </em>available<em> for second round of pre-orders Winter 2026. Join the </em>waitlist<em>!</em></p><p><em>Update 9/7 Assembling units and shipping out in small batches.</em></p>",
+                "text": "<p><em>Orders made now are second round pre orders and will be delivered in March 2027</em></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -670,7 +628,7 @@
                     "text_XpWxV6": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Drift technology: Patent pending tech, drifting your second pin so it's always 10 yards apart.</p><p>Calculated for FPS range of 220-330 fps.</p><p>Axis: 1st, 2nd and 3rd axis adjustments</p><p>Micro pin adjustment: Top pin is fixed, second pin has micro elevation adjustment</p><p>Dual sided sight tapes</p><p>Sight tapes: Metal tape backer, with adjustable positioning, Sticker sight tape sheet included.</p><p>Aperture: Pin brightness adjustment</p><p>Large wheel for quick range adjustment</p><p>Lockout lever for scope travel</p><p>Micro sight in adjustment: Micro adjustment on both elevation and windage, with a tool or toolless lockout for windage.</p><p>Bubble level: Top or bottom configurable</p><p>Pin size: .015”</p><p>Pin Color: Green top, red bottom</p><p>Scope housing: 40mm ID</p><p>Weight:</p><p>Bridgelock- 13.7 oz</p><p>Picatinny-13.6 oz</p><p>Side mount dovetail- 14.9 oz</p><p>Bridgelock- </p><p>Picatinny-</p><p>Side mount dovetail- 13.5 oz</p><p>Mounting options: Dovetail side mount, Pic Rail, Matthews Bridgelock</p><p>Future accessories post launch:</p><ul><li>An “extra pin” single post mounted in bottom of housing</li><li>Sight Light, replaces aperture</li><li>Lense Kit</li></ul>",
+                        "text": "<p>Drift technology: Patent pending tech, drifting your second pin so it's always 10 yards apart.</p><p>Calculated for FPS range of 220-330 fps. with 440 grain arrow</p><p>Axis: 1st, 2nd and 3rd axis adjustments</p><p>Micro pin adjustment: Top pin is fixed, second pin has micro elevation adjustment</p><p>Dual sided sight tapes</p><p>Sight tapes: Metal tape backer, with adjustable positioning, Sticker sight tape sheet included.</p><p>Aperture: Pin brightness adjustment</p><p>Large wheel for quick range adjustment</p><p>Lockout lever for scope travel</p><p>Micro sight in adjustment: Micro adjustment on both elevation and windage, with a tool or toolless lockout for windage.</p><p>Bubble level: Top or bottom configurable</p><p>Pin size: .015”</p><p>Pin Color: Green top, red bottom</p><p>Scope housing: 40mm ID</p><p>Weight:</p><p>Bridgelock- 13.7 oz</p><p>Picatinny-13.6 oz</p><p>Side mount dovetail- 14.9 oz</p><p>Bridgelock-&nbsp;</p><p>Picatinny-</p><p>Side mount dovetail- 13.5 oz</p><p>Mounting options: Dovetail side mount, Pic Rail, Matthews Bridgelock</p><p>Future accessories:</p><ul><li>An “extra pin” single post mounted in bottom of housing</li><li>Sight Light, replaces aperture</li><li>Lense Kit</li></ul>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -786,50 +744,7 @@
                             "padding-inline-start": 0,
                             "padding-inline-end": 0
                           },
-                          "blocks": {
-                            "icon_DUGT4a": {
-                              "type": "icon",
-                              "name": "t:names.icon",
-                              "settings": {
-                                "icon": "price_tag",
-                                "image_upload": "shopify://shop_images/AdobeStock_104221787.jpg",
-                                "width": 24,
-                                "link": "",
-                                "open_in_new_tab": false
-                              },
-                              "blocks": {}
-                            },
-                            "text_JGnpe6": {
-                              "type": "text",
-                              "name": "t:names.text",
-                              "settings": {
-                                "text": "<p><strong>MADE IN THE USA</strong></p>",
-                                "width": "fit-content",
-                                "max_width": "normal",
-                                "alignment": "left",
-                                "type_preset": "rte",
-                                "font": "var(--font-body--family)",
-                                "font_size": "1rem",
-                                "line_height": "normal",
-                                "letter_spacing": "normal",
-                                "case": "none",
-                                "wrap": "pretty",
-                                "color": "var(--color-foreground)",
-                                "background": false,
-                                "background_color": "#00000026",
-                                "corner_radius": 0,
-                                "padding-block-start": 0,
-                                "padding-block-end": 0,
-                                "padding-inline-start": 0,
-                                "padding-inline-end": 0
-                              },
-                              "blocks": {}
-                            }
-                          },
-                          "block_order": [
-                            "icon_DUGT4a",
-                            "text_JGnpe6"
-                          ]
+                          "blocks": {}
                         }
                       },
                       "block_order": [
@@ -956,50 +871,7 @@
                             "padding-inline-start": 0,
                             "padding-inline-end": 0
                           },
-                          "blocks": {
-                            "icon_NiamQ3": {
-                              "type": "icon",
-                              "name": "t:names.icon",
-                              "settings": {
-                                "icon": "price_tag",
-                                "image_upload": "shopify://shop_images/AdobeStock_104221787.jpg",
-                                "width": 24,
-                                "link": "",
-                                "open_in_new_tab": false
-                              },
-                              "blocks": {}
-                            },
-                            "text_89RJJx": {
-                              "type": "text",
-                              "name": "t:names.text",
-                              "settings": {
-                                "text": "<p><strong>MADE IN THE USA</strong></p>",
-                                "width": "fit-content",
-                                "max_width": "normal",
-                                "alignment": "left",
-                                "type_preset": "rte",
-                                "font": "var(--font-body--family)",
-                                "font_size": "1rem",
-                                "line_height": "normal",
-                                "letter_spacing": "normal",
-                                "case": "none",
-                                "wrap": "pretty",
-                                "color": "var(--color-foreground)",
-                                "background": false,
-                                "background_color": "#00000026",
-                                "corner_radius": 0,
-                                "padding-block-start": 0,
-                                "padding-block-end": 0,
-                                "padding-inline-start": 0,
-                                "padding-inline-end": 0
-                              },
-                              "blocks": {}
-                            }
-                          },
-                          "block_order": [
-                            "icon_NiamQ3",
-                            "text_89RJJx"
-                          ]
+                          "blocks": {}
                         }
                       },
                       "block_order": [
@@ -1048,7 +920,6 @@
             "text_aEtTtq": {
               "type": "text",
               "name": "Product description",
-              "disabled": true,
               "settings": {
                 "text": "{{ closest.product.description }}",
                 "width": "100%",
