@@ -536,7 +536,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><em>Orders made now are second round pre orders and will be delivered in March 2027</em></p>",
+                "text": "<p><em>Orders made now are second round pre orders and will be delivered end of April 2027</em></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
